@@ -32,7 +32,7 @@ class KMP
 '
 ===================
 ';
-                if(floor($k/3)>3) break;
+                if(floor($k/3)>2) break;
 			}
 		}
 		if($result)
