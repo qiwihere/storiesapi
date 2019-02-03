@@ -11,8 +11,7 @@ class Overheard
 		{
 			$story = pq($story)->text();
 			$result.=$story;
-			$result.=
-'
+			$result.= '
 ===================
 ';
 		    if($k>2) break;

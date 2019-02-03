@@ -28,8 +28,7 @@ class KMP
 				{
 					$result.=$pqs->text();
 				}
-				$result.=
-'
+				$result.= '
 ===================
 ';
                 if(floor($k/3)>2) break;
