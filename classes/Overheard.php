@@ -11,14 +11,14 @@ class Overheard
 		{
 			$story = pq($story)->text();
 			$result.=$story;
-			$result.='\n
+			$result.='
 				===================
-				\n';
+				';
 		}
 		
 		if($result)
 		{
-			$result = ['result'=>true, 'via'=>'https://ideer.ru/','data'=> $result];
+			$result = ['result'=>true, 'via'=>'ideer.ru','data'=> $result];
 		}else{
 			$result = ['result'=>false];
 		}

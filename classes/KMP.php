@@ -28,14 +28,14 @@ class KMP
 				{
 					$result.=$pqs->text();
 				}
-				$result.='\n
+				$result.='
 				===================
-				\n';
+				';
 			}
 		}
 		if($result)
 		{
-			$result = ['result'=>true, 'via'=>'https://killpls.me','data'=> $result];
+			$result = ['result'=>true, 'via'=>'killpls.me','data'=> $result];
 		}else{
 			$result = ['result'=>false];
 		}
