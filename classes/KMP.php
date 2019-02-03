@@ -32,6 +32,7 @@ class KMP
 '
 ===================
 ';
+                if($k>5) break;
 			}
 		}
 		if($result)

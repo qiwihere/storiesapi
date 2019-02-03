@@ -7,7 +7,7 @@ class Overheard
 	{
 		$stories = $html->find('div.shortContent');
 		$result = '';
-		foreach($stories as $story)
+		foreach($stories as $k => $story)
 		{
 			$story = pq($story)->text();
 			$result.=$story;
@@ -15,6 +15,7 @@ class Overheard
 '
 ===================
 ';
+		    if($k>5) break;
 		}
 		
 		if($result)
