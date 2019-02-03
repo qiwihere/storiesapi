@@ -15,7 +15,7 @@ class Overheard
 '
 ===================
 ';
-		    if($k>5) break;
+		    if($k>3) break;
 		}
 		
 		if($result)
