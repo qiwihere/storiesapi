@@ -20,7 +20,7 @@ class KMP
 					foreach($hided_story as $i=>$_story)
 					{
 						
-					    $result.=pq($_story)->text();
+					    $result.=trim(pq($_story)->text());
 						break;
 					}
 					
