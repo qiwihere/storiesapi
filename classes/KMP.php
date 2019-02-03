@@ -28,9 +28,10 @@ class KMP
 				{
 					$result.=$pqs->text();
 				}
-				$result.='
-				===================
-				';
+				$result.=
+'
+===================
+';
 			}
 		}
 		if($result)

@@ -11,9 +11,10 @@ class Overheard
 		{
 			$story = pq($story)->text();
 			$result.=$story;
-			$result.='
-				===================
-				';
+			$result.=
+'
+===================
+';
 		}
 		
 		if($result)
